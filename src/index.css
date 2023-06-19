@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+input,button,h1{
+  padding : 10px;
+  margin: 5px;
+  
+}
+button{
+  font-size: medium;
+  font-weight: 500;
+  color: blue;
+  background-color: azure;
+}
+button:hover{
+  color: white;
+  background-color: blue;
 }
